@@ -58,3 +58,7 @@ mv universe_commands.txt universe_commands.sql
 rm universe_commands.txt
 psql --username=freecodecamp --dbname=postgres
 psql --username=freecodecamp --dbname=postgres
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
+git
+git init
+git add -A
